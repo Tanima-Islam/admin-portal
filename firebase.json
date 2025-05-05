@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "dist",
+   "index": "app.html",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "app.html"
+      }
+    ]
+  }
+}
